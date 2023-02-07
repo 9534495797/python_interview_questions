@@ -1,0 +1,183 @@
+* {
+    Box-Sizing: Border-Box;
+  }
+  
+  Body {
+    Margin: 2.2rem;
+  }
+  
+  Div#Resume {
+    Min-Width: 310px;
+    Font: 16px Helvetica, Avernir, Sans-Serif;
+    Line-Height: 24px;
+    Color: #000;
+  }
+  
+  Div#Resume H1 {
+    Margin: 0 0 16px 0;
+    Padding: 0 0 16px 0;
+    Font-Size: 42px;
+    Font-Weight: Bold;
+    Letter-Spacing: -2px;
+    Border-Bottom: 1px Solid #999;
+    Line-Height: 50px;
+  }
+  
+  Div#Resume H2 {
+    Font-Size: 20px;
+    Margin: 0 0 6px 0;
+    Position: Relative;
+  }
+  
+  Div#Resume H2 Span {
+    Position: Absolute;
+    Bottom: 0;
+    Right: 0;
+    Font-Style: Italic;
+    Font-Family: Georgia, Serif;
+    Font-Size: 16px;
+    Color: #999;
+    Font-Weight: Normal;
+  }
+  
+  Div#Resume P {
+    Margin: 0 0 16px 0;
+  }
+  
+  Div#Resume A {
+    Color: #999;
+    Text-Decoration: None;
+    Border-Bottom: 1px Dotted #999;
+  }
+  
+  Div#Resume A:hover {
+    Border-Bottom-Style: Solid;
+    Color: #000;
+  }
+  
+  Div#Resume P.Objective {
+    Font-Family: Georgia, Serif;
+    Font-Style: Italic;
+    Color: #666;
+  }
+  
+  Div#Resume Dt {
+    Font-Style: Italic;
+    Font-Weight: Bold;
+    Font-Size: 18px;
+    Text-Align: Right;
+    Padding: 0 26px 0 0;
+    Width: 150px;
+    Border-Right: 1px Solid #999;
+  }
+  
+  Div#Resume Dl {
+    Display: Table-Row;
+  }
+  
+  Div#Resume Dl Dt,
+  Div#Resume Dl Dd {
+    Display: Table-Cell;
+    Padding-Bottom: 20px;
+  }
+  
+  Div#Resume Dl Dd {
+    Width: 500px;
+    Padding-Left: 26px;
+  }
+  
+  Div#Resume Img {
+    Float: Right;
+    Padding: 10px;
+    Background: #Fff;
+    Margin: 0 30px;
+    Transform: Rotate(-4deg);
+    Box-Shadow: 0 0 4px Rgba(0, 0, 0, 0.3);
+    Width: 30%;
+    Max-Width: 220px;
+  }
+  
+  @Media Screen And (Max-Width: 1100px) {
+    Div#Resume H2 Span {
+      Position: Static;
+      Display: Block;
+      Margin-Top: 2px;
+    }
+  }
+  
+  @Media Screen And (Max-Width: 550px) {
+    Body {
+      Margin: 1rem;
+    }
+    Div#Resume Img {
+      Transform: Rotate(0deg);
+    }
+  }
+  
+  @Media Screen And (Max-Width: 400px) {
+    Div#Resume Dl Dt {
+      Border-Right: None;
+      Border-Bottom: 1px Solid #999;
+    }
+    Div#Resume Dl,
+    Div#Resume Dl Dd,
+    Div#Resume Dl Dt {
+      Display: Block;
+      Padding-Left: 0;
+      Margin-Left: 0;
+      Padding-Bottom: 0;
+      Text-Align: Left;
+      Width: 100%;
+    }
+    Div#Resume Dl Dd {
+      Margin-Top: 6px;
+    }
+    Div#Resume H2 {
+      Font-Style: Normal;
+      Font-Weight: 400;
+      Font-Size: 18px;
+    }
+    Div#Resume Dt {
+      Font-Size: 20px;
+    }
+    H1 {
+      Font-Size: 36px;
+      Margin-Right: 0;
+      Line-Height: 0;
+    }
+    Div#Resume Img {
+      Margin: 0;
+    }
+  }
+  
+  @Media Screen And (Max-Width: 320px) {
+    Body {
+      Margin: 0;
+    }
+    Img {
+      Margin: 0;
+      Margin-Bottom: -40px;
+    }
+    Div#Resume {
+      Width: 320px;
+      Padding: 12px;
+      Overflow: Hidden;
+    }   P,
+    Li {
+      Margin-Right: 20px;
+    }
+  }
+  * {
+    Box-Sizing: Border-Box;
+  }
+  
+  Body {
+    Margin: 2.2rem;
+  }
+  
+  Div#Resume {
+    Min-Width: 310px;
+    Font: 16px Helvetica, Avernir, Sans-Serif;
+    Line-Height: 24px;
+    Color: #000;
+  }
